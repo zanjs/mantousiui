@@ -1,6 +1,6 @@
 
 
-const day = '20160830';
+const day = '20160831';
 const ID = 'app';
 const mincss = `${ID}.css`, minjs   = 'app.js';
 
@@ -81,7 +81,7 @@ gulp.task('scripts',() => gulp.src([`${srcPath}libs/jquery.js`,`${srcPath}libs/f
     .pipe(reload({stream: true}))
     .pipe(notify({ message: 'Scripts task complete' })));
 
-gulp.task('images',() => gulp.src(`${srcPath}imgs/*`)
+gulp.task('images',() => gulp.src([`${srcPath}imgs/*`,`${srcPath}imgs/**/*`])
     .pipe(imagemin())
     .pipe(gulp.dest(`./${day}/build/imgs`))
     .pipe(notify({ message: 'imgs task complete' })));
@@ -129,7 +129,7 @@ gulp.task('dev', ['sass'], () => {
     gulp.watch(`./${day}/*.html`).on('change', reload);
     gulp.watch('./*.html').on('change', reload);
 
-    gulp.watch([`./${day}/templates/*.html`, `./${day}/templates/*.ejs` ,`./${day}/templates/module/*.ejs`,`./${day}/templates/html/*.html`], ['ejs']);
+    gulp.watch([`./${day}/templates/*.ejs` ,`./${day}/templates/**/*.html`,`./${day}/templates/html/*.html`], ['ejs']);
 
 });
 

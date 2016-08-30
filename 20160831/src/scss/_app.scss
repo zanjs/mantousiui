@@ -1,0 +1,30 @@
+body {
+    font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #141414
+}
+
+* {
+    line-height: 1.125
+}
+
+b,
+strong {
+    font-weight: 600
+}
+
+h1 {
+    font-weight: normal;
+    margin-top: 0
+}
+
+h3 {
+    font-weight: 600
+}
+
+.page-title {
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 1em
+}

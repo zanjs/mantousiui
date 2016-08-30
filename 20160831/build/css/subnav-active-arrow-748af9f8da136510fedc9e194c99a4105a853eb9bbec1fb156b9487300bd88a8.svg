@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="9px" viewBox="0 0 17 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>subnav-active-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="17" height="9"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="subnav-active-arrow" sketch:type="MSLayerGroup">
+            <mask id="mask-2" sketch:name="Mask" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+            <g id="Group-2" mask="url(#mask-2)" sketch:type="MSShapeGroup">
+                <g transform="translate(0.000000, -2.000000)">
+                    <path d="M17.4249729,1.46398105 L8.71450212,10.1744518 L0.00127685041,1.46122655 L17.4249729,1.46398105 Z" id="Mask" fill="#CAD7E0"></path>
+                    <path d="M16.8668715,0.554371537 L8.71067151,8.71057129 L0.562550092,0.56244983 L16.8668715,0.554371537 Z" id="Rectangle-127-Copy-2" fill="#EDF2F5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
