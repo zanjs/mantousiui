@@ -1,7 +1,7 @@
 {
   "name": "special2016",
   "version": "0.0.1",
-  "description": "泰州日报",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "gulp",
