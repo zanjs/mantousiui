@@ -41,9 +41,9 @@ const banner = [
 
 const srcPath = `./${day}/src/`;
 const buildPath = `./${day}/build/`;
-const tempdPath = `./${day}/templates/`;
+const tempdPath = `./${srcPath}templates/`;
 
-gulp.task('ejs', () => gulp.src(`./${day}/templates/*.ejs`)
+gulp.task('ejs', () => gulp.src(`./${day}/src/templates/*.ejs`)
     .pipe(ejs({
         title: pkg.description,
         mincss: mincss,
@@ -129,7 +129,7 @@ gulp.task('dev', ['sass'], () => {
     gulp.watch(`./${day}/*.html`).on('change', reload);
     gulp.watch('./*.html').on('change', reload);
 
-    gulp.watch([`./${day}/templates/*.ejs` ,`./${day}/templates/**/*.html`,`./${day}/templates/html/*.html`], ['ejs']);
+    gulp.watch([`./${day}/src/templates/*.ejs` ,`./${day}/src/templates/**/*.html`], ['ejs']);
 
 });
 

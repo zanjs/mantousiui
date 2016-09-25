@@ -16,12 +16,13 @@
     <meta name="twitter:url" content="https://nnn.li/" />
     <meta name="twitter:image" content="" />
     <meta name="twitter:description" content="" />
-    <link rel="stylesheet" media="all" href="./build/css/application-8fd346d2b8eb9fc4a1240bc55df8309412cc2e81fb49e5b8fff697b7d5408092.css" />
-    <link rel="stylesheet" media="print" href="./build/css/print-852b12f603d401ee5ae638201d4e5612bd14b331e1c6982678d9c1d3e9ee6727.css" />
+    <link rel="stylesheet" media="all" href="./build/css/application.css" />
+    <link rel="stylesheet" media="print" href="./build/css/print.css" />
+    <link rel="stylesheet" media="all" href="./build/css/app.css" />
     <link rel="stylesheet" media="all" href="//fast.fonts.net/cssapi/4946bd2e-8cbd-461c-8121-ca6696f6267d.css" />
     <link rel="canonical" href="https://nnn.li/" />
     <link rel="alternate" type="application/atom+xml" title="ATOM" href="https://nnn.li/feed" />
-    <script src="./build/js/application-1b4ee572a905e4d79cffbdaddde9b89ac8f3709b87eae0468b0fc9c2237bf8f4.js"></script>
+    <script src="./build/js/application.js"></script>
     <script>
         //<![CDATA[
        !function(e,t,n){function r(e,t){return typeof e===t}function o(){var e,t,n,o,a,i,s;for(var l in C){if(C.hasOwnProperty(l)){if(e=[],t=C[l],t.name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length)){for(n=0;n<t.options.aliases.length;n++){e.push(t.options.aliases[n].toLowerCase())}}for(o=r(t.fn,"function")?t.fn():t.fn,a=0;a<e.length;a++){i=e[a],s=i.split("."),1===s.length?Modernizr[s[0]]=o:(!Modernizr[s[0]]||Modernizr[s[0]] instanceof Boolean||(Modernizr[s[0]]=new Boolean(Modernizr[s[0]])),Modernizr[s[0]][s[1]]=o),y.push((o?"":"no-")+s.join("-"))}}}}function a(e){var t=S.className,n=Modernizr._config.classPrefix||"";if(b&&(t=t.baseVal),Modernizr._config.enableJSClass){var r=new RegExp("(^|\\s)"+n+"no-js(\\s|$)");t=t.replace(r,"$1"+n+"js$2")}Modernizr._config.enableClasses&&(t+=" "+n+e.join(" "+n),b?S.className.baseVal=t:S.className=t)}function i(e,t){return !!~(""+e).indexOf(t)}function s(){return"function"!=typeof t.createElement?t.createElement(arguments[0]):b?t.createElementNS.call(t,"http://www.w3.org/2000/svg",arguments[0]):t.createElement.apply(t,arguments)}function l(e){return e.replace(/([a-z])-([a-z])/g,function(e,t,n){return t+n.toUpperCase()}).replace(/^-/,"")}function c(e,t){return function(){return e.apply(t,arguments)}}function u(e,t,n){var o;for(var a in e){if(e[a] in t){return n===!1?e[a]:(o=t[e[a]],r(o,"function")?c(o,n||t):o)}}return !1}function f(e){return e.replace(/([A-Z])/g,function(e,t){return"-"+t.toLowerCase()}).replace(/^ms-/,"-ms-")}function d(){var e=t.body;return e||(e=s(b?"svg":"body"),e.fake=!0),e}function p(e,n,r,o){var a,i,l,c,u="modernizr",f=s("div"),p=d();if(parseInt(r,10)){for(;r--;){l=s("div"),l.id=o?o[r]:u+(r+1),f.appendChild(l)}}return a=s("style"),a.type="text/css",a.id="s"+u,(p.fake?p:f).appendChild(a),p.appendChild(f),a.styleSheet?a.styleSheet.cssText=e:a.appendChild(t.createTextNode(e)),f.id=u,p.fake&&(p.style.background="",p.style.overflow="hidden",c=S.style.overflow,S.style.overflow="hidden",S.appendChild(p)),i=n(f,e),p.fake?(p.parentNode.removeChild(p),S.style.overflow=c,S.offsetHeight):f.parentNode.removeChild(f),!!i}function m(t,r){var o=t.length;if("CSS" in e&&"supports" in e.CSS){for(;o--;){if(e.CSS.supports(f(t[o]),r)){return !0}}return !1}if("CSSSupportsRule" in e){for(var a=[];o--;){a.push("("+f(t[o])+":"+r+")")}return a=a.join(" or "),p("@supports ("+a+") { #modernizr { position: absolute; } }",function(e){return"absolute"==getComputedStyle(e,null).position})}return n}function h(e,t,o,a){function c(){f&&(delete j.style,delete j.modElem)}if(a=r(a,"undefined")?!1:a,!r(o,"undefined")){var u=m(e,o);if(!r(u,"undefined")){return u}}for(var f,d,p,h,g,v=["modernizr","tspan"];!j.style;){f=!0,j.modElem=s(v.shift()),j.style=j.modElem.style}for(p=e.length,d=0;p>d;d++){if(h=e[d],g=j.style[h],i(h,"-")&&(h=l(h)),j.style[h]!==n){if(a||r(o,"undefined")){return c(),"pfx"==t?h:!0}try{j.style[h]=o}catch(y){}if(j.style[h]!=g){return c(),"pfx"==t?h:!0}}}return c(),!1}function g(e,t,n,o,a){var i=e.charAt(0).toUpperCase()+e.slice(1),s=(e+" "+w.join(i+" ")+i).split(" ");return r(t,"string")||r(t,"undefined")?h(s,t,o,a):(s=(e+" "+_.join(i+" ")+i).split(" "),u(s,t,n))}function v(e,t,r){return g(e,n,n,t,r)}var y=[],C=[],E={_version:"3.3.1",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){C.push({name:e,fn:t,options:n})},addAsyncTest:function(e){C.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=E,Modernizr=new Modernizr;var S=t.documentElement,b="svg"===S.nodeName.toLowerCase(),x="Moz O ms Webkit",w=E._config.usePrefixes?x.split(" "):[];E._cssomPrefixes=w;var _=E._config.usePrefixes?x.toLowerCase().split(" "):[];E._domPrefixes=_;b||!function(e,t){function n(e,t){var n=e.createElement("p"),r=e.getElementsByTagName("head")[0]||e.documentElement;return n.innerHTML="x<style>"+t+"</style>",r.insertBefore(n.lastChild,r.firstChild)}function r(){var e=C.elements;return"string"==typeof e?e.split(" "):e}function o(e,t){var n=C.elements;"string"!=typeof n&&(n=n.join(" ")),"string"!=typeof e&&(e=e.join(" ")),C.elements=n+" "+e,c(t)}function a(e){var t=y[e[g]];return t||(t={},v++,e[g]=v,y[v]=t),t}function i(e,n,r){if(n||(n=t),f){return n.createElement(e)}r||(r=a(n));var o;return o=r.cache[e]?r.cache[e].cloneNode():h.test(e)?(r.cache[e]=r.createElem(e)).cloneNode():r.createElem(e),!o.canHaveChildren||m.test(e)||o.tagUrn?o:r.frag.appendChild(o)}function s(e,n){if(e||(e=t),f){return e.createDocumentFragment()}n=n||a(e);for(var o=n.frag.cloneNode(),i=0,s=r(),l=s.length;l>i;i++){o.createElement(s[i])}return o}function l(e,t){t.cache||(t.cache={},t.createElem=e.createElement,t.createFrag=e.createDocumentFragment,t.frag=t.createFrag()),e.createElement=function(n){return C.shivMethods?i(n,e,t):t.createElem(n)},e.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+r().join().replace(/[\w\-:]+/g,function(e){return t.createElem(e),t.frag.createElement(e),'c("'+e+'")'
@@ -32,6 +33,7 @@
     <link rel="apple-touch-icon" type="image/png" href="./build/imgs/apple-touch-icon-114x114-98e7618233154ca9312469713264e33078bbc686269017b337edc98a60521f7e.png" sizes="114x114" />
     <link rel="apple-touch-icon" type="image/png" href="./build/imgs/apple-touch-icon-144x144-0236f0315f872d6cc16cda122fcdd464aeb823a376e1919390b425c6c4f153c0.png" sizes="144x144" />
     <link rel="icon" type="image/png" href="./build/imgs/apple-touch-icon-b06a2da26ff9f31c003469ba0063a247f90385a960064b3440dc4f69451b3b18.png" sizes="192x192" />
+</head>
 <body>
 <div class="side-drawer">
     <ul class="side-drawer__nav">
@@ -85,15 +87,15 @@
     </ul>
     <ul class="side-secondary-nav">
         <li><a href="http://www.nnn.li/">English</a></li>
-        <li><a href="https://agenda.nnn.li/espanol/">Español</a></li>
+        <li><a href="https://nnn.li/espanol/">Español</a></li>
         <li><a href="http://www.nnn.li/">日本語</a></li>
-        <li class="drawer-toplink-container">
+        <!--<li class="drawer-toplink-container">
             <a href="https://toplink.nnn.li/">
                 <div class="drawer-toplink-button">
                     登录到Toplink
                 </div>
             </a>
-        </li>
+        </li>-->
     </ul>
 </div>
 <div class="side-drawer__close"></div>
@@ -118,38 +120,21 @@
 
             <div class="header-pane-selectors">
                 <li class="header-pane" data-pane="agenda">
-                    <a class="header-item__link" href="/agenda">议题</a>
+                    <a class="header-item__link" href=agenda">议题</a>
                 </li>
                 <li class="header-pane" data-pane="events">
-                    <a class="header-item__link" href="/events">会议</a>
+                    <a class="header-item__link" href="">会议</a>
                 </li>
                 <li class="header-pane" data-pane="reports">
-                    <a class="header-item__link" href="/reports">报告</a>
+                    <a class="header-item__link" href="">报告</a>
                 </li>
                 <li class="header-pane" data-pane="projects">
-                    <a class="header-item__link" href="/global-challenges">项目</a>
+                    <a class="header-item__link" href="">项目</a>
                 </li>
                 <li class="header-pane" data-pane="about">
-                    <a class="header-item__link" href="/about/our-mission">关于</a>
+                    <a class="header-item__link" href="">关于</a>
                 </li>
             </div>
-            <!--
-            <div class="header-secondary-links">
-                <li class="header-item">
-                    <a class="header-item__link toplink" href="https://nnn.li/">
-                        <div class="header-toplink-button">
-                            登录到Toplink
-                        </div>
-                    </a>
-                </li>
-                <li class="header-item">
-                    <a class="header-item__link" href="http://nnn.li/">English</a>
-                </li>
-                <li class="header-item">
-                    <a class="header-item__link" href="http://nnn.li/">日本語</a>
-                </li>
-            </div>
-            -->
         </ul>
     </div>
 </header>
@@ -184,7 +169,7 @@
                                 </a>
                             </article>
                             <article class="tout tout--default tout--article">
-                                <a class="tout__link" href="/agenda/2016/08/386c03df-5de0-4fe4-8efe-ef381b76a42a">
+                                <a class="tout__link" href="">
                                     <figure class="placeholder small">
                                         <img class="image" alt="" src="./build/imgs/upload/small_UNAZ-oKq9Vvd-zcaRuQj16JwIKgLyFdgq-APcuI5zoM.png" />
                                         <img class="tiny-fallback" src="./build/imgs/upload/tiny_UNAZ-oKq9Vvd-zcaRuQj16JwIKgLyFdgq-APcuI5zoM.png" alt="Tiny" />
@@ -196,7 +181,7 @@
                                 </a>
                             </article>
                             <article class="tout tout--default tout--article">
-                                <a class="tout__link" href="/agenda/2016/08/ac3f9324-60af-4aa4-820a-6429ef40bc3c">
+                                <a class="tout__link" href="">
                                     <figure class="placeholder small">
                                         <img class="image" alt="" src="./build/imgs/upload/small__mXCeQqgPmmTFWA7oYDW0ODWrDtcdIH4jNVxcLahs9Q.jpg" />
                                         <img class="tiny-fallback" src="./build/imgs/upload/tiny__mXCeQqgPmmTFWA7oYDW0ODWrDtcdIH4jNVxcLahs9Q.jpg" alt="Tiny" />
@@ -216,7 +201,7 @@
                     <div class="tout-list tout-list--grid tout-list--grid-">
                         <div class="tout-list--grid__container">
                             <article class="tout tout--default tout--article">
-                                <a class="tout__link" href="/agenda/2016/08/7f95c280-fc9b-4361-9ecd-1c1375323350">
+                                <a class="tout__link" href="">
                                     <figure class="placeholder small">
                                         <img class="image" alt="" src="./build/imgs/upload/small_7RZtCW95iJSTplcLxAQolo-s2C8Ii2HVQkE8pU7vl78.jpg" />
                                         <img class="tiny-fallback" src="./build/imgs/upload/tiny_7RZtCW95iJSTplcLxAQolo-s2C8Ii2HVQkE8pU7vl78.jpg" alt="Tiny" />
@@ -228,10 +213,10 @@
                                 </a>
                             </article>
                             <article class="tout tout--default tout--article">
-                                <a class="tout__link" href="/agenda/2016/07/2680b551-a7e0-4c9e-be13-15375cadefa0">
+                                <a class="tout__link" href="">
                                     <figure class="placeholder small">
                                         <img class="image" alt="" src="./build/imgs/upload/small__1OdK_McqnkTwaboFkI8HStpelz2K344mXA4WtwhZHM.png" />
-                                        <img class="tiny-fallback" src="./build/imgs/upload/tiny__1OdK_McqnkTwaboFkI8HStpelz2K344mXA4WtwhZHM.png" alt="Tiny  1odk" />
+                                        <img class="tiny-fallback" src="./build/imgs/upload/tiny__1OdK_McqnkTwaboFkI8HStpelz2K344mXA4WtwhZHM.png" alt="Tiny" />
                                     </figure>
                                     <div class="tout__details">
                                         <div class="tout__topic caption"></div>
@@ -240,10 +225,10 @@
                                 </a>
                             </article>
                             <article class="tout tout--default tout--article">
-                                <a class="tout__link" href="/agenda/2016/07/3eef766a-53a6-40fb-b8bc-c0203150eb05">
+                                <a class="tout__link" href="">
                                     <figure class="placeholder small">
                                         <img class="image" alt="" src="./build/imgs/upload/small_0GwiKx--9OopQL6NZNLPBniSZ1ekThSR9n0LqOrRJ_s.png" />
-                                        <img class="tiny-fallback" src="./build/imgs/upload/tiny_0GwiKx--9OopQL6NZNLPBniSZ1ekThSR9n0LqOrRJ_s.png" alt="Tiny 0gwikx s" />
+                                        <img class="tiny-fallback" src="./build/imgs/upload/tiny_0GwiKx--9OopQL6NZNLPBniSZ1ekThSR9n0LqOrRJ_s.png" alt="Tiny" />
                                     </figure>
                                     <div class="tout__details">
                                         <div class="tout__topic caption"></div>
@@ -260,10 +245,10 @@
                     <div class="tout-list tout-list--grid tout-list--grid-">
                         <div class="tout-list--grid__container">
                             <article class="tout tout--default tout--article">
-                                <a class="tout__link" href="/agenda/2016/07/8c58bf51-abe3-4be4-b8d0-8f7bb6dc073c">
+                                <a class="tout__link" href="">
                                     <figure class="placeholder small">
                                         <img class="image" alt="" src="./build/imgs/upload/small_OrtOlg3_8ifmr5gYy2U12Rk5r7PnHDLBEPqKHusHjto.jpeg" />
-                                        <img class="tiny-fallback" src="./build/imgs/upload/tiny_OrtOlg3_8ifmr5gYy2U12Rk5r7PnHDLBEPqKHusHjto.jpeg" alt="Tiny ortolg3" />
+                                        <img class="tiny-fallback" src="./build/imgs/upload/tiny_OrtOlg3_8ifmr5gYy2U12Rk5r7PnHDLBEPqKHusHjto.jpeg" alt="Tiny" />
                                     </figure>
                                     <div class="tout__details">
                                         <div class="tout__topic caption"></div>
@@ -272,7 +257,7 @@
                                 </a>
                             </article>
                             <article class="tout tout--default tout--article">
-                                <a class="tout__link" href="/agenda/2016/06/Music-Industry">
+                                <a class="tout__link" href="">
                                     <figure class="placeholder small">
                                         <img class="image" alt="" src="./build/imgs/upload/small_iwqURiQ6HZ3qJwXlZePBltHV4hnHfygU2QpwUhWdYCY.jpg" />
                                         <img class="tiny-fallback" src="./build/imgs/upload/tiny_iwqURiQ6HZ3qJwXlZePBltHV4hnHfygU2QpwUhWdYCY.jpg" alt="Tiny" />
@@ -284,7 +269,7 @@
                                 </a>
                             </article>
                             <article class="tout tout--default tout--article">
-                                <a class="tout__link" href="/agenda/2016/06/emerging-tech-2016">
+                                <a class="tout__link" href="">
                                     <figure class="placeholder small">
                                         <img class="image" alt="" src="./build/imgs/upload/small_dJVuqfJqWN2rs2k9Vs5nCjuo0Wr9HgZRFzwUQo9ca0w.png" />
                                         <img class="tiny-fallback" src="./build/imgs/upload/tiny_dJVuqfJqWN2rs2k9Vs5nCjuo0Wr9HgZRFzwUQo9ca0w.png" alt="Tiny" />
@@ -302,7 +287,7 @@
             <div class="row">
                 <div class="small-12 columns">
                     <div class="meganav-section-end">
-                        <a href="/agenda"> <span>阅读全文</span> <img src="./build/imgs/link-arrow-9adfe464cd987bc5b3097b1218678552fcdd94a3e6cb7b3664bd1f75205873cc.svg" alt="Link arrow" /> </a>
+                        <a href=""> <span>阅读全文</span> <img src="./build/imgs/link-arrow-9adfe464cd987bc5b3097b1218678552fcdd94a3e6cb7b3664bd1f75205873cc.svg" alt="Link arrow" /> </a>
                     </div>
                 </div>
             </div>
@@ -323,10 +308,10 @@
                 <div class="mega-event-summary">
                     <div class="gutter-marking"></div>
                     <article class="tout tout--default tout--event">
-                        <a class="tout__link" href="/events/india-economic-summit-2016">
+                        <a class="tout__link" href="">
                             <figure class="placeholder small">
                                 <img class="image" alt="" src="./build/imgs/upload/small_v0yPkGokoelOFh0r_E_7AAPtHUVJzRJ6Ic0us4LLDFM.jpeg" />
-                                <img class="tiny-fallback" src="./build/imgs/upload/tiny_v0yPkGokoelOFh0r_E_7AAPtHUVJzRJ6Ic0us4LLDFM.jpeg" alt="Tiny v0ypkgokoelofh0r e 7aapthuvjzrj6ic0us4lldfm" />
+                                <img class="tiny-fallback" src="./build/imgs/upload/tiny_v0yPkGokoelOFh0r_E_7AAPtHUVJzRJ6Ic0us4LLDFM.jpeg" alt="Tiny" />
                             </figure>
                             <div class="tout__details">
                                 <h3 class="tout__title">2016年印度经济峰会</h3>
@@ -349,7 +334,7 @@
                     <a class="tout__link" href="">
                         <figure class="placeholder tiny">
                             <img class="image" alt="" src="./build/imgs/upload/tiny__BvRhZ2lihcEJ7S_ISGzLJrNTOnX1GVqV2MCppoEu5I.jpeg" />
-                            <img class="tiny-fallback" src="./build/imgs/upload/tiny__BvRhZ2lihcEJ7S_ISGzLJrNTOnX1GVqV2MCppoEu5I.jpeg" alt="Tiny  bvrhz2lihcej7s isgzljrntonx1gvqv2mcppoeu5i" />
+                            <img class="tiny-fallback" src="./build/imgs/upload/tiny__BvRhZ2lihcEJ7S_ISGzLJrNTOnX1GVqV2MCppoEu5I.jpeg" alt="Tiny" />
                         </figure>
                         <div class="tout__details">
                             <h3 class="tout__title">2016年新领军者年会</h3>
@@ -363,10 +348,10 @@
                     </a>
                 </article>
                 <article class="tout tout--mini tout--event">
-                    <a class="tout__link" href="/events/world-economic-forum-on-latin-america-2016">
+                    <a class="tout__link" href="">
                         <figure class="placeholder tiny">
                             <img class="image" alt="" src="./build/imgs/upload/tiny_nrFCoW6lrUmoiwn2lgbiPmSyh03XuSxyYj_6PMIAE5w.jpeg" />
-                            <img class="tiny-fallback" src="./build/imgs/upload/tiny_nrFCoW6lrUmoiwn2lgbiPmSyh03XuSxyYj_6PMIAE5w.jpeg" alt="Tiny nrfcow6lrumoiwn2lgbipmsyh03xusxyyj 6pmiae5w" />
+                            <img class="tiny-fallback" src="./build/imgs/upload/tiny_nrFCoW6lrUmoiwn2lgbiPmSyh03XuSxyYj_6PMIAE5w.jpeg" alt="Tiny" />
                         </figure>
                         <div class="tout__details">
                             <h3 class="tout__title">2016年世界经济论坛拉美峰会</h3>
@@ -380,10 +365,10 @@
                     </a>
                 </article>
                 <article class="tout tout--mini tout--event">
-                    <a class="tout__link" href="/events/world-economic-forum-on-asean-2016">
+                    <a class="tout__link" href="">
                         <figure class="placeholder tiny">
                             <img class="image" alt="" src="./build/imgs/upload/tiny_m4-_hzNRBbF8UePbfZEdPR8gr0hnIXJjExxTjId_e98.jpeg" />
-                            <img class="tiny-fallback" src="./build/imgs/upload/tiny_m4-_hzNRBbF8UePbfZEdPR8gr0hnIXJjExxTjId_e98.jpeg" alt="Tiny m4  hznrbbf8uepbfzedpr8gr0hnixjjexxtjid e98" />
+                            <img class="tiny-fallback" src="./build/imgs/upload/tiny_m4-_hzNRBbF8UePbfZEdPR8gr0hnIXJjExxTjId_e98.jpeg" alt="Tiny" />
                         </figure>
                         <div class="tout__details">
                             <h3 class="tout__title">2016年世界经济论坛东亚峰会</h3>
@@ -401,7 +386,7 @@
         <div class="row">
             <div class="small-12 columns">
                 <div class="meganav-section-end">
-                    <a href="/events"> <span>更多会议</span> <img src="./build/imgs/link-arrow-9adfe464cd987bc5b3097b1218678552fcdd94a3e6cb7b3664bd1f75205873cc.svg" alt="Link arrow 9adfe464cd987bc5b3097b1218678552fcdd94a3e6cb7b3664bd1f75205873cc" /> </a>
+                    <a href=""> <span>更多会议</span> <img src="./build/imgs/link-arrow-9adfe464cd987bc5b3097b1218678552fcdd94a3e6cb7b3664bd1f75205873cc.svg" alt="Link" /> </a>
                 </div>
             </div>
         </div>
@@ -419,10 +404,10 @@
                 <div class="tout-list tout-list--grid">
                     <div class="tout-list--grid__container">
                         <article class="tout tout--default tout--report">
-                            <a class="tout__link" href="/reports/global-information-technology-report-2016">
+                            <a class="tout__link" href="">
                                 <figure class="placeholder small">
                                     <img class="image" alt="" src="./build/imgs/upload/small_Fj6nmCOpBdTUtJSeyCYAZNVa8kSd-WBQbKt3hkFemJ8.jpg" />
-                                    <img class="tiny-fallback" src="./build/imgs/upload/tiny_Fj6nmCOpBdTUtJSeyCYAZNVa8kSd-WBQbKt3hkFemJ8.jpg" alt="Tiny fj6nmcopbdtutjseycyaznva8ksd wbqbkt3hkfemj8" />
+                                    <img class="tiny-fallback" src="./build/imgs/upload/tiny_Fj6nmCOpBdTUtJSeyCYAZNVa8kSd-WBQbKt3hkFemJ8.jpg" alt="Tink" />
                                 </figure>
                                 <div class="tout__details">
                                     <h3 class="tout__title">2016年全球信息技术报告</h3>
@@ -435,10 +420,10 @@
                             </a>
                         </article>
                         <article class="tout tout--default tout--report">
-                            <a class="tout__link" href="/reports/human-capital-report-2016">
+                            <a class="tout__link" href="">
                                 <figure class="placeholder small">
                                     <img class="image" alt="" src="./build/imgs/upload/small_Z1x0Cv-SU1vMvLBPz7x1jCtNsrcLVPQiM4diqsI0Y58.JPG" />
-                                    <img class="tiny-fallback" src="./build/imgs/upload/tiny_Z1x0Cv-SU1vMvLBPz7x1jCtNsrcLVPQiM4diqsI0Y58.JPG" alt="Tiny z1x0cv su1vmvlbpz7x1jctnsrclvpqim4diqsi0y58" />
+                                    <img class="tiny-fallback" src="./build/imgs/upload/tiny_Z1x0Cv-SU1vMvLBPz7x1jCtNsrcLVPQiM4diqsI0Y58.JPG" alt="Tiny" />
                                 </figure>
                                 <div class="tout__details">
                                     <h3 class="tout__title">2016年人力资本报告</h3>
@@ -451,10 +436,10 @@
                             </a>
                         </article>
                         <article class="tout tout--default tout--report">
-                            <a class="tout__link" href="/reports/the-future-of-jobs">
+                            <a class="tout__link" href="">
                                 <figure class="placeholder small">
                                     <img class="image" alt="" src="./build/imgs/upload/small_4QQCJrfsnv_rbX4Y2eaarz-wP7tG6x5LQLkPZk8joAQ.png" />
-                                    <img class="tiny-fallback" src="./build/imgs/upload/tiny_4QQCJrfsnv_rbX4Y2eaarz-wP7tG6x5LQLkPZk8joAQ.png" alt="Tiny 4qqcjrfsnv rbx4y2eaarz wp7tg6x5lqlkpzk8joaq" />
+                                    <img class="tiny-fallback" src="./build/imgs/upload/tiny_4QQCJrfsnv_rbX4Y2eaarz-wP7tG6x5LQLkPZk8joAQ.png" alt="Tiny" />
                                 </figure>
                                 <div class="tout__details">
                                     <h3 class="tout__title">未来就业报告</h3>
@@ -473,7 +458,7 @@
         <div class="row">
             <div class="small-12 columns">
                 <div class="meganav-section-end">
-                    <a href="/reports"> <span>更多报告</span> <img src="./build/imgs/link-arrow-9adfe464cd987bc5b3097b1218678552fcdd94a3e6cb7b3664bd1f75205873cc.svg" alt="Link arrow" /> </a>
+                    <a href=""> <span>更多报告</span> <img src="./build/imgs/link-arrow-9adfe464cd987bc5b3097b1218678552fcdd94a3e6cb7b3664bd1f75205873cc.svg" alt="Link arrow" /> </a>
                 </div>
             </div>
         </div>
@@ -493,15 +478,15 @@
                     <span class="list-group__title">“应对全球挑战”行动倡议</span>
                 </div>
                 <ul class="mega-list-group">
-                    <li class="mega-list-group__item"> <a href="/global-challenges/future-of-the-internet">互联网的未来</a> </li>
-                    <li class="mega-list-group__item"> <a href="/global-challenges/gender-parity">全球性别平等</a> </li>
-                    <li class="mega-list-group__item"> <a href="/global-challenges/future-of-the-global-financial-system">全球金融体系的未来</a> </li>
-                    <li class="mega-list-group__item"> <a href="/global-challenges/food-security-and-agriculture">农业与粮食安全</a> </li>
-                    <li class="mega-list-group__item"> <a href="/global-challenges/international-trade-and-investment">国际贸易与投资</a> </li>
-                    <li class="mega-list-group__item"> <a href="/global-challenges/employment-skills-and-human-capital">就业、技能与人力资本</a> </li>
-                    <li class="mega-list-group__item"> <a href="/global-challenges/environment-and-resource-security">环境与资源安全</a> </li>
-                    <li class="mega-list-group__item"> <a href="/global-challenges/economic-growth-and-social-inclusion">经济增长与社会包容</a> </li>
-                    <li class="mega-list-group__item"> <a href="/global-challenges/long-term-investing-infrastructure-and-development">长期投资、基础设施与经济发展</a> </li>
+                    <li class="mega-list-group__item"> <a href="">互联网的未来</a> </li>
+                    <li class="mega-list-group__item"> <a href="">全球性别平等</a> </li>
+                    <li class="mega-list-group__item"> <a href="">全球金融体系的未来</a> </li>
+                    <li class="mega-list-group__item"> <a href="">农业与粮食安全</a> </li>
+                    <li class="mega-list-group__item"> <a href="">国际贸易与投资</a> </li>
+                    <li class="mega-list-group__item"> <a href="">就业、技能与人力资本</a> </li>
+                    <li class="mega-list-group__item"> <a href="">环境与资源安全</a> </li>
+                    <li class="mega-list-group__item"> <a href="">经济增长与社会包容</a> </li>
+                    <li class="mega-list-group__item"> <a href="">长期投资、基础设施与经济发展</a> </li>
                 </ul>
             </div>
             <div class="small-8 columns">
@@ -516,7 +501,7 @@
                                     <a class="tout__link" href="">
                                         <figure class="placeholder small">
                                             <img class="image" alt="" src="./build/imgs/upload/fallback-small-cb8992567b66198e106a34e94fe769afd604a00c5b62e618c98a5e86ea27905b.png" />
-                                            <img class="tiny-fallback" src="./build/imgs/upload/fallback-tiny-8cd872b56c710adb83ae38eb2116e34dee65b06883fa029367b994d5d9348447.png" alt="Fallback tiny" />
+                                            <img class="tiny-fallback" src="./build/imgs/upload/fallback-tiny-8cd872b56c710adb83ae38eb2116e34dee65b06883fa029367b994d5d9348447.png" alt="" />
                                         </figure>
                                         <div class="tout__details">
                                             <div class="tout__topic caption"></div>
@@ -545,7 +530,7 @@
         <div class="row">
             <div class="small-12 columns">
                 <div class="meganav-section-end">
-                    <a href="/global-challenges"> <span>更多项目</span> <img src="./build/imgs/link-arrow-9adfe464cd987bc5b3097b1218678552fcdd94a3e6cb7b3664bd1f75205873cc.svg" alt="Link arrow" /> </a>
+                    <a href=""> <span>更多项目</span> <img src="./build/imgs/link-arrow-9adfe464cd987bc5b3097b1218678552fcdd94a3e6cb7b3664bd1f75205873cc.svg" alt="Link" /> </a>
                 </div>
             </div>
         </div>
@@ -565,16 +550,16 @@
                     <span class="list-group__title">关于我们</span>
                 </div>
                 <ul class="mega-list-group">
-                    <li class="mega-list-group__item"> <a href="/about/our-mission">我们的使命</a> </li>
-                    <li class="mega-list-group__item"> <a href="/about/communities">我们的社区</a> </li>
-                    <li class="mega-list-group__item"> <a href="/about/our-members-partners">我们的会员与伙伴</a> </li>
-                    <li class="mega-list-group__item"> <a href="/about/leadership-and-governance">领导团队</a> </li>
-                    <li class="mega-list-group__item"> <a href="/about/our-history">我们的历史</a> </li>
-                    <li class="mega-list-group__item"> <a href="/about/contact-us">联系我们 </a> </li>
-                    <li class="mega-list-group__item"> <a href="/about/press">媒体</a> </li>
-                    <li class="mega-list-group__item"> <a href="/about/career-opportunities">职业机会</a> </li>
-                    <li class="mega-list-group__item"> <a href="/about/775175ff-9f09-45f1-b552-0a8c437b4847">声明</a> </li>
-                    <li class="mega-list-group__item"> <a href="/about/privacy-and-terms-of-use">隐私和使用条款</a> </li>
+                    <li class="mega-list-group__item"> <a href="">我们的使命</a> </li>
+                    <li class="mega-list-group__item"> <a href="">我们的社区</a> </li>
+                    <li class="mega-list-group__item"> <a href="">我们的会员与伙伴</a> </li>
+                    <li class="mega-list-group__item"> <a href="">领导团队</a> </li>
+                    <li class="mega-list-group__item"> <a href="">我们的历史</a> </li>
+                    <li class="mega-list-group__item"> <a href="">联系我们 </a> </li>
+                    <li class="mega-list-group__item"> <a href="">媒体</a> </li>
+                    <li class="mega-list-group__item"> <a href="">职业机会</a> </li>
+                    <li class="mega-list-group__item"> <a href="">声明</a> </li>
+                    <li class="mega-list-group__item"> <a href="">隐私和使用条款</a> </li>
                 </ul>
             </div>
             <div class="small-8 columns">
@@ -586,10 +571,10 @@
                         <div class="tout-list tout-list--grid tout-list--grid-x2">
                             <div class="tout-list--grid__container">
                                 <article class="tout tout--default tout--page">
-                                    <a class="tout__link" href="/about/how-to-engage">
+                                    <a class="tout__link" href="">
                                         <figure class="placeholder small">
                                             <img class="image" alt="" src="./build/imgs/upload/small_RwSyC4_HD2hYNRsuwyXVUM6rTAXJXFAAAc6vH69h9J8.jpg" />
-                                            <img class="tiny-fallback" src="./build/imgs/upload/tiny_RwSyC4_HD2hYNRsuwyXVUM6rTAXJXFAAAc6vH69h9J8.jpg" alt="Tiny rwsyc4" />
+                                            <img class="tiny-fallback" src="./build/imgs/upload/tiny_RwSyC4_HD2hYNRsuwyXVUM6rTAXJXFAAAc6vH69h9J8.jpg" alt="Tiny" />
                                         </figure>
                                         <div class="tout__details">
                                             <h3 class="tout__title">如何参与</h3>
@@ -597,7 +582,7 @@
                                     </a>
                                 </article>
                                 <article class="tout tout--default tout--page">
-                                    <a class="tout__link" href="/about/contact-us">
+                                    <a class="tout__link" href="">
                                         <figure class="placeholder small">
                                             <img class="image" alt="" src="./build/imgs/upload/small_PsXgfRYxDz5WiNTQdqQi9K32ObkeSmzg-QaKGKMA36o.jpg" />
                                             <img class="tiny-fallback" src="./build/imgs/upload/tiny_PsXgfRYxDz5WiNTQdqQi9K32ObkeSmzg-QaKGKMA36o.jpg" alt="Tiny" />
@@ -616,58 +601,77 @@
     </div>
 </div>
 <section>
-    <div class="homepage">
-        <div class="row">
-            <div class="small-12 columns">
-                <article class="tout tout--hero tout--article">
-                    <a class="tout__link" href="">
-                        <figure class="placeholder large">
-                            <img class="image" src="./build/imgs/upload/large_OqN3002swRePy7MBSmU4DssD8abNbrsQGYuGBYV3WfY.png" alt="" />
-                            <img class="tiny-fallback" src="./build/imgs/upload/tiny_OqN3002swRePy7MBSmU4DssD8abNbrsQGYuGBYV3WfY.png" alt="Tiny" />
-                        </figure>
-                        <div class="tout__details">
-                            <div class="tout__topic caption"></div>
-                            <h3 class="tout__title">林毅夫：带动全球发展的下一个领头人是中国</h3>
-                            <div class="tout__meta">
-                                <div class="caption">
-                                    <span class="article__author bold">Justin Yifu Lin</span>
-                                    <span>16 Aug 2016</span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </article>
+    <div class="row">
+        <div class="small-12 columns">
+            <ul class="topic-list">
+                <li class="topic-list__item">Regional 议题</li>
+            </ul>
+            <h1 class="article__headline">中国惊艳全球科学界的五大超级工程</h1>
+            <div class="article__lead-image">
+                <figure class="st__content-block st__content-block--image">
+                    <img alt="从亚原子粒子到火星观测，中国正逐渐成为世界科学研究领域的新领军者。" src="./build/imgs/upload/large__1OdK_McqnkTwaboFkI8HStpelz2K344mXA4WtwhZHM.png" />
+                    <div class="image__credit">
+                        Image: 路透社 Jason Lee
+                    </div>
+                </figure>
             </div>
         </div>
-        <div class="row">
-            <div class="columns tout-list tout-list--grid">
-                <div class="tout-list--grid__container">
-                    <article class="tout tout--default tout--article">
+    </div>
+    <div class="row">
+        <div class="small-12 medium-4 columns">
+            <div class="article-details--small">
+                <p>Friday 29 July 2016</p>
+            </div>
+            <div class="article-details--large">
+                <div class="article-details__meta">
+                    <div class="article-details__header">
+                        已发布
+                    </div>
+                    <div>
+                        Friday 29 July 2016
+                    </div>
+                </div>
+                <div class="article-details__meta">
+                    <div class="article-details__header">
+                        分享
+                    </div>
+                    <div>
+                        <a href="" class="social-share--weibo js-social-share" target="_blank"></a>
+                        <a href="" class="social-share--linkedin js-social-share" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="further-reading-group">
+                <div class="list-group__header">
+                    <div class="further-reading__header-title">
+                        最新文章
+                    </div>
+                </div>
+                <div class="row collapse">
+                    <article class="tout tout--mini tout--article">
                         <a class="tout__link" href="">
-                            <figure class="placeholder small">
-                                <img class="image" alt="" src="./build/imgs/upload/small_8J6AilQoEnWLjRsvGazW1b81tpWf0hm_bIqpHDRWiJY.jpeg" />
-                                <img class="tiny-fallback" src="./build/imgs/upload/tiny_8J6AilQoEnWLjRsvGazW1b81tpWf0hm_bIqpHDRWiJY.jpeg" alt="Tiny" />
+                            <figure class="placeholder tiny">
+                                <img class="image" alt="" src="./build/imgs/upload/tiny_45AmZZ8RSbjiXet1VO2Q3a2PJbCRepdIp_NOBm815jc.jpeg" />
+                                <img class="tiny-fallback" src="./build/imgs/upload/tiny_45AmZZ8RSbjiXet1VO2Q3a2PJbCRepdIp_NOBm815jc.jpeg" alt="Tiny" />
                             </figure>
                             <div class="tout__details">
-                                <div class="tout__topic caption"></div>
-                                <h3 class="tout__title">比尔盖茨：了解人工智能，应该读这两本书</h3>
+                                <h3 class="tout__title">它竟然是世界上最环保、最幸福的国家！</h3>
                                 <div class="tout__meta">
                                     <div class="caption">
-                                        <span class="article__author bold">Thu-Huong Ha</span>
-                                        <span>16 Aug 2016</span>
+                                        <span class="article__author bold">Anna Bruce-Lockhart</span>
+                                        <span>17 Aug 2016</span>
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </article>
-                    <article class="tout tout--default tout--article">
+                    <article class="tout tout--mini tout--article">
                         <a class="tout__link" href="">
-                            <figure class="placeholder small">
-                                <img class="image" alt="" src="./build/imgs/upload/small_UNAZ-oKq9Vvd-zcaRuQj16JwIKgLyFdgq-APcuI5zoM.png" />
-                                <img class="tiny-fallback" src="./build/imgs/upload/tiny_UNAZ-oKq9Vvd-zcaRuQj16JwIKgLyFdgq-APcuI5zoM.png" alt="Tiny" />
+                            <figure class="placeholder tiny">
+                                <img class="image" alt="" src="./build/imgs/upload/tiny_UNAZ-oKq9Vvd-zcaRuQj16JwIKgLyFdgq-APcuI5zoM.png" />
+                                <img class="tiny-fallback" src="./build/imgs/upload/tiny_UNAZ-oKq9Vvd-zcaRuQj16JwIKgLyFdgq-APcuI5zoM.png" alt="Tiny unaz" />
                             </figure>
                             <div class="tout__details">
-                                <div class="tout__topic caption"></div>
                                 <h3 class="tout__title">现在才八月，可我们已经把今年的自然资源都用完了！</h3>
                                 <div class="tout__meta">
                                     <div class="caption">
@@ -678,236 +682,83 @@
                             </div>
                         </a>
                     </article>
-                    <article class="tout tout--default tout--article">
-                        <a class="tout__link" href="/agenda/2016/08/7f95c280-fc9b-4361-9ecd-1c1375323350">
-                            <figure class="placeholder small">
-                                <img class="image" alt="" src="./build/imgs/upload/small_7RZtCW95iJSTplcLxAQolo-s2C8Ii2HVQkE8pU7vl78.jpg" />
-                                <img class="tiny-fallback" src="./build/imgs/upload/tiny_7RZtCW95iJSTplcLxAQolo-s2C8Ii2HVQkE8pU7vl78.jpg" alt="Tiny" />
+                    <article class="tout tout--mini tout--article">
+                        <a class="tout__link" href="">
+                            <figure class="placeholder tiny">
+                                <img class="image" alt="" src="./build/imgs/upload/tiny__mXCeQqgPmmTFWA7oYDW0ODWrDtcdIH4jNVxcLahs9Q.jpg" />
+                                <img class="tiny-fallback" src="./build/imgs/upload/tiny__mXCeQqgPmmTFWA7oYDW0ODWrDtcdIH4jNVxcLahs9Q.jpg" alt="Tiny " />
                             </figure>
                             <div class="tout__details">
-                                <div class="tout__topic caption"></div>
-                                <h3 class="tout__title">企业应当如何应对中国水危机？</h3>
+                                <h3 class="tout__title">全球化使我们的经济更容易受到气候变化的影响</h3>
                                 <div class="tout__meta">
                                     <div class="caption">
-                                        <span class="article__author bold"></span>
-                                        <span>10 Aug 2016</span>
+                                        <span class="article__author bold">Leonie Wenz</span>
+                                        <span>16 Aug 2016</span>
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </article>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="small-12 columns">
-                <div class="bottom-border"></div>
-            </div>
-            <div class="small-12 columns">
-                <div class="strapline">
-                    世界经济论坛是一个致力于通过公私合作改善世界状况的国际机构。
-                </div>
-            </div>
-            <div class="small-12 columns">
-                <div class="press-release-container">
-                    <div class="press-release__content">
-                        <div class="press-release__caption">
-                            <span class="bold">新闻通稿</span>
-                            <span>8 天 发布时间</span>
-                        </div>
-                        <a class="press-release__text" href="/press/2016/08/4c831d64-e168-4a57-85ad-22313716fde9">全球青年调查：“全球公民”一代担忧腐败、气候变化和机会缺失</a>
-                    </div>
-                    <div class="press-release__more">
-                        <a class="press-release__trigger" href="/press"> <span>所有媒体</span><img src="./build/imgs/thin-chevron-8a1b04b5181ea90a0b42486358eb215e5c907b3aba8d6e1fb852d05d2eda620b.svg" alt="Thin" /> </a>
+                    <div class="further-reading__more">
+                        <a href="/agenda/archive">
+                            <span class="further-reading__more-link">了解更多议题</span>
+                            <span class="further-reading__more-arrow">
+                                    <img src="./build/imgs/further-reading-arrow-984f0b2d46101716e9c621b9fc9e0192e3e5be4e69b301ddf6e866ef4108d8db.svg" alt="Further" /> 
+                                </span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="highlights-section border-bottom">
-        <div class="row">
-            <div class="small-12 columns">
-                <div class="events-header">
-                    议题表
+        <div class="article-show-container">
+            <div class="article-body">
+                <div class="st__content-block st__content-block--text">
+                    <p>如今中国的经济增速已经令全世界惊叹不已，政治和军事实力也得以日渐增强。然而在另外一些鲜有关注的领域，中国也正在成为全球范围内的领导者。
+                        中国的科学研究体量如今已经十分庞大。而在全国人大在今年早些时候启动
+                        <a href="http://www.bbc.co.uk/news/world-asia-china-35818730">第十三个五年计划（“十三五”）</a>之后，
+                        中国的科研事业<a href="">将被纳入</a>未来的国家优先发展战略。中国政府意在2020年，使国内科研经费占GDP的比重从过去五年的低于2.2%，
+                        <a href="">升至2.5%</a>。</p>
+                </div>
+                <div class="st__content-block st__content-block--text">
+                    <p>而在诸多的项目中，这五大工程最为世人瞩目。</p>
+                </div>
+                <div class="st__content-block st__content-block--text">
+                    <p><b>巨型望远镜</b></p>
+                </div>
+                <div class="st__content-block st__content-block--text">
+                    <p>只有具备雄厚科技实力的国家，才有能力建设巨型天文望远镜。位于中国贵州省的500米口径球面射电望远镜
+                        （Five hundred meter Aperture Spherical Telescope，简称FAST）利用当地喀斯特洼地地势建造，面积占地超过30个足球场。</p>
+                </div>
+                <div class="st__content-block st__content-block--text">
+                    <p>FAST的直径达到了500米，这一数字要远大于全球第二大射电望远镜，波多黎各阿雷西博天文台的305米直径。</p>
+                </div>
+
+            </div>
+            <div class="post-article">
+                <div class="post-article__share">
+                    分享
+                </div>
+                <div>
+                    <a href="" class="social-share--weibo js-social-share" target="_blank"></a>
+                    <a href="" class="social-share--linkedin js-social-share" target="_blank"></a>
+                </div>
+                <div class="article-source">
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="small-12 large-8 columns">
-                <div class="gutter-marking"></div>
-                <div class="sbs-section-header">
-                    <span>全球议题</span>
-                </div>
-                <article class="tout tout--large tout--article">
-                    <a class="tout__link" href="/agenda/2016/08/26dfe3af-6a38-4eb2-b72c-2960f195a8ab">
-                        <figure class="placeholder small">
-                            <img class="image" alt="" src="./build/imgs/upload/small_45AmZZ8RSbjiXet1VO2Q3a2PJbCRepdIp_NOBm815jc.jpeg" />
-                            <img class="tiny-fallback" src="./build/imgs/upload/tiny_45AmZZ8RSbjiXet1VO2Q3a2PJbCRepdIp_NOBm815jc.jpeg" alt="Tiny" />
-                        </figure>
-                        <div class="tout__details">
-                            <h3 class="tout__title">它竟然是世界上最环保、最幸福的国家！</h3>
-                            <div class="tout__meta">
-                                <div class="caption">
-                                    <span class="article__author bold">Anna Bruce-Lockhart</span>
-                                    <span>17 Aug 2016</span>
-                                </div>
-                            </div>
+            <div class="post-article">
+                <div class="newsletter">
+                    <div class="newsletter__callout">
+                        <b>订阅最新动态</b>
+                        <div class="newsletter__callout__description">
+                            全球议题一周更新
                         </div>
-                    </a>
-                </article>
-                <article class="tout tout--large tout--article">
-                    <a class="tout__link" href="/agenda/2016/08/386c03df-5de0-4fe4-8efe-ef381b76a42a">
-                        <figure class="placeholder small">
-                            <img class="image" alt="" src="./build/imgs/upload/small_UNAZ-oKq9Vvd-zcaRuQj16JwIKgLyFdgq-APcuI5zoM.png" />
-                            <img class="tiny-fallback" src="./build/imgs/upload/tiny_UNAZ-oKq9Vvd-zcaRuQj16JwIKgLyFdgq-APcuI5zoM.png" alt="Tiny unaz" />
-                        </figure>
-                        <div class="tout__details">
-                            <h3 class="tout__title">现在才八月，可我们已经把今年的自然资源都用完了！</h3>
-                            <div class="tout__meta">
-                                <div class="caption">
-                                    <span class="article__author bold">Joe Myers</span>
-                                    <span>17 Aug 2016</span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-                <article class="tout tout--large tout--article">
-                    <a class="tout__link" href="/agenda/2016/08/ac3f9324-60af-4aa4-820a-6429ef40bc3c">
-                        <figure class="placeholder small">
-                            <img class="image" alt="" src="./build/imgs/upload/small__mXCeQqgPmmTFWA7oYDW0ODWrDtcdIH4jNVxcLahs9Q.jpg" />
-                            <img class="tiny-fallback" src="./build/imgs/upload/tiny__mXCeQqgPmmTFWA7oYDW0ODWrDtcdIH4jNVxcLahs9Q.jpg" alt="Tiny" />
-                        </figure>
-                        <div class="tout__details">
-                            <h3 class="tout__title">全球化使我们的经济更容易受到气候变化的影响</h3>
-                            <div class="tout__meta">
-                                <div class="caption">
-                                    <span class="article__author bold">Leonie Wenz</span>
-                                    <span>16 Aug 2016</span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-            </div>
-            <div class="small-12 medium-6 large-4 columns">
-                <div class="row">
-                    <div class="small-12 columns">
-                        <div class="sbs-section-header">
-                            <span>地区议题</span>
-                        </div>
-                        <article class="tout tout--mini tout--article">
-                            <a class="tout__link" href="/agenda/2016/08/7f95c280-fc9b-4361-9ecd-1c1375323350">
-                                <figure class="placeholder tiny">
-                                    <img class="image" alt="" src="./build/imgs/upload/tiny_7RZtCW95iJSTplcLxAQolo-s2C8Ii2HVQkE8pU7vl78.jpg" />
-                                    <img class="tiny-fallback" src="./build/imgs/upload/tiny_7RZtCW95iJSTplcLxAQolo-s2C8Ii2HVQkE8pU7vl78.jpg" alt="Tiny" />
-                                </figure>
-                                <div class="tout__details">
-                                    <h3 class="tout__title">企业应当如何应对中国水危机？</h3>
-                                    <div class="tout__meta">
-                                        <div class="caption">
-                                            <span class="article__author bold"></span>
-                                            <span>10 Aug 2016</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="tout tout--mini tout--article">
-                            <a class="tout__link" href="/agenda/2016/07/2680b551-a7e0-4c9e-be13-15375cadefa0">
-                                <figure class="placeholder tiny">
-                                    <img class="image" alt="" src="./build/imgs/upload/tiny__1OdK_McqnkTwaboFkI8HStpelz2K344mXA4WtwhZHM.png" />
-                                    <img class="tiny-fallback" src="./build/imgs/upload/tiny__1OdK_McqnkTwaboFkI8HStpelz2K344mXA4WtwhZHM.png" alt="Tiny" />
-                                </figure>
-                                <div class="tout__details">
-                                    <h3 class="tout__title">中国惊艳全球科学界的五大超级工程</h3>
-                                    <div class="tout__meta">
-                                        <div class="caption">
-                                            <span class="article__author bold"></span>
-                                            <span>29 Jul 2016</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="tout tout--mini tout--article">
-                            <a class="tout__link" href="/agenda/2016/07/3eef766a-53a6-40fb-b8bc-c0203150eb05">
-                                <figure class="placeholder tiny">
-                                    <img class="image" alt="" src="./build/imgs/upload/tiny_0GwiKx--9OopQL6NZNLPBniSZ1ekThSR9n0LqOrRJ_s.png" />
-                                    <img class="tiny-fallback" src="./build/imgs/upload/tiny_0GwiKx--9OopQL6NZNLPBniSZ1ekThSR9n0LqOrRJ_s.png" alt="Tiny" />
-                                </figure>
-                                <div class="tout__details">
-                                    <h3 class="tout__title">中国视角：怎样教孩子们创新？</h3>
-                                    <div class="tout__meta">
-                                        <div class="caption">
-                                            <span class="article__author bold"></span>
-                                            <span>22 Jul 2016</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
                     </div>
-                </div>
-            </div>
-            <div class="small-12 medium-6 large-4 columns">
-                <div class="row">
-                    <div class="small-12 columns">
-                        <div class="sbs-section-header">
-                            <span>行业议题</span>
+                    <form action="" method="post" target="_blank" class="newsletter__form">
+                        <div class="newsletter__form__field">
+                            <input type="email" name="EMAIL" placeholder="电子邮箱" class="newsletter__form__input" />
+                            <input type="submit" value="订阅" name="subscribe" class="newsletter__form__submit" />
                         </div>
-                        <article class="tout tout--mini tout--article">
-                            <a class="tout__link" href="/agenda/2016/07/8c58bf51-abe3-4be4-b8d0-8f7bb6dc073c">
-                                <figure class="placeholder tiny">
-                                    <img class="image" alt="" src="./build/imgs/upload/tiny_OrtOlg3_8ifmr5gYy2U12Rk5r7PnHDLBEPqKHusHjto.jpeg" />
-                                    <img class="tiny-fallback" src="./build/imgs/upload/tiny_OrtOlg3_8ifmr5gYy2U12Rk5r7PnHDLBEPqKHusHjto.jpeg" alt="Tiny" />
-                                </figure>
-                                <div class="tout__details">
-                                    <h3 class="tout__title">雾霾变钻石的魔法在中国真的存在！</h3>
-                                    <div class="tout__meta">
-                                        <div class="caption">
-                                            <span class="article__author bold"></span>
-                                            <span>25 Jul 2016</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="tout tout--mini tout--article">
-                            <a class="tout__link" href="/agenda/2016/06/Music-Industry">
-                                <figure class="placeholder tiny">
-                                    <img class="image" alt="" src="./build/imgs/upload/tiny_iwqURiQ6HZ3qJwXlZePBltHV4hnHfygU2QpwUhWdYCY.jpg" />
-                                    <img class="tiny-fallback" src="./build/imgs/upload/tiny_iwqURiQ6HZ3qJwXlZePBltHV4hnHfygU2QpwUhWdYCY.jpg" alt="Tiny" />
-                                </figure>
-                                <div class="tout__details">
-                                    <h3 class="tout__title">再次颠覆音乐产业的三大科技趋势</h3>
-                                    <div class="tout__meta">
-                                        <div class="caption">
-                                            <span class="article__author bold">Cortney Harding</span>
-                                            <span>25 Jun 2016</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="tout tout--mini tout--article">
-                            <a class="tout__link" href="/agenda/2016/06/emerging-tech-2016">
-                                <figure class="placeholder tiny">
-                                    <img class="image" alt="" src="./build/imgs/upload/tiny_dJVuqfJqWN2rs2k9Vs5nCjuo0Wr9HgZRFzwUQo9ca0w.png" />
-                                    <img class="tiny-fallback" src="./build/imgs/upload/tiny_dJVuqfJqWN2rs2k9Vs5nCjuo0Wr9HgZRFzwUQo9ca0w.png" alt="Tiny" />
-                                </figure>
-                                <div class="tout__details">
-                                    <h3 class="tout__title">2016年度十大新兴技术</h3>
-                                    <div class="tout__meta">
-                                        <div class="caption">
-                                            <span class="article__author bold">Media Team</span>
-                                            <span>23 Jun 2016</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -919,15 +770,8 @@
             <div class="footer__newsletter">
                 <div class="newsletter">
                     <div class="newsletter__callout">
-                        <b>订阅最新动态</b>
                         <div class="newsletter__callout__description">全球议题一周更新</div>
                     </div>
-                    <form action="" method="post" target="_blank" class="footer__form">
-                        <div class="newsletter__form__field">
-                            <input type="email" name="EMAIL" placeholder="电子邮箱" class="footer__form__input">
-                            <input type="submit" value="订阅" name="subscribe" class="footer__form__submit">
-                        </div>
-                    </form>
                 </div>
             </div>
 
@@ -948,34 +792,34 @@
                 </div>
                 <div class="list-group__items">
                     <div class="list-group__item">
-                        <a href="/about/our-mission">我们的使命</a>
+                        <a href="">我们的使命</a>
                     </div>
                     <div class="list-group__item">
-                        <a href="/about/communities">我们的社区</a>
+                        <a href="">我们的社区</a>
                     </div>
                     <div class="list-group__item">
-                        <a href="/about/our-members-partners">我们的会员与伙伴</a>
+                        <a href="">我们的会员与伙伴</a>
                     </div>
                     <div class="list-group__item">
-                        <a href="/about/leadership-and-governance">领导团队</a>
+                        <a href="">领导团队</a>
                     </div>
                     <div class="list-group__item">
-                        <a href="/about/our-history">我们的历史</a>
+                        <a href="">我们的历史</a>
                     </div>
                     <div class="list-group__item">
-                        <a href="/about/contact-us">联系我们 </a>
+                        <a href="">联系我们 </a>
                     </div>
                     <div class="list-group__item">
-                        <a href="/about/press">媒体</a>
+                        <a href="">媒体</a>
                     </div>
                     <div class="list-group__item">
-                        <a href="/about/career-opportunities">职业机会</a>
+                        <a href="">职业机会</a>
                     </div>
                     <div class="list-group__item">
-                        <a href="/about/775175ff-9f09-45f1-b552-0a8c437b4847">声明</a>
+                        <a href="">声明</a>
                     </div>
                     <div class="list-group__item">
-                        <a href="/about/privacy-and-terms-of-use">隐私和使用条款</a>
+                        <a href="">隐私和使用条款</a>
                     </div>
                 </div>
             </div>
@@ -987,13 +831,10 @@
                 </div>
                 <div class="list-group__items">
                     <div class="list-group__item">
-                        <a href="/press/">新闻</a>
+                        <a href="">新闻</a>
                     </div>
                     <div class="list-group__item">
                         <a href="">许可</a>
-                    </div>
-                    <div class="list-group__item">
-                        <a href="" target="_blank">订阅我们的新闻</a>
                     </div>
                 </div>
             </div>
@@ -1005,37 +846,17 @@
                 </div>
                 <div class="list-group__items">
                     <div class="list-group__item">
-                        <a href="https://toplink.nnn.li/">会员登录Toplink</a>
+                        <a href="">会员登录Toplink</a>
                     </div>
                     <div class="list-group__item">
-                        <a href="https://toplink.nnn.li/">战略合作伙伴</a>
+                        <a href="">战略合作伙伴</a>
                     </div>
                     <div class="list-group__item">
-                        <a href="https://toplink.nnn.li/">合作机构</a>
+                        <a href="">合作机构</a>
                     </div>
                 </div>
             </div>
         </div>
-         <!--
-        <div class="footer__list-group">
-            <div class="list-group">
-                <div class="list-group__header">
-                    <span>全球站点</span>
-                </div>
-                <div class="list-group__items">
-                    <div class="list-group__item">
-                        <a href="http://www.nnn.li/">English</a>
-                    </div>
-                    <div class="list-group__item">
-                        <a href="https://agenda.nnn.li/espanol/">Español</a>
-                    </div>
-                    <div class="list-group__item">
-                        <a href="http://www.weforum.jp/">日本語</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        -->
     </div>
     <div class="row">
         <div class="small-12 columns">
@@ -1044,7 +865,7 @@
                     © 2016 世界经济论坛
                 </div>
                 <div class="footer__info-group">
-                    <a href="/about/privacy-and-terms-of-use">隐私权政策和服务条款</a>
+                    <a href="">隐私权政策和服务条款</a>
                 </div>
             </div>
         </div>
