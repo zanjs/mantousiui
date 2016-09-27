@@ -1,7 +1,14 @@
 ;
 (function() {
 
-$(document).foundation()
+    $(function(){  
+       
 
+
+    });
+
+   
+        
+   
 
 })();

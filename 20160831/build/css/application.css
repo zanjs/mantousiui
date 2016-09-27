@@ -2092,7 +2092,8 @@ footer .list-group__item {
 }
 
 @media only screen and (min-width: 40.0625em) {
-    .tout--hero {
+   
+    .tout--hero,.hiSlider{
         max-height: 590px;
         overflow: hidden;
         position: relative

@@ -60,7 +60,7 @@ gulp.task('ejs', () => gulp.src(`./${day}/src/templates/*.ejs`)
 
 //编译Sass，Autoprefix及缩小化
 gulp.task('sass', () => gulp.src(`${srcPath}scss/main.scss`)
-    .pipe(sass({ style: 'expanded' }))
+    .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     .pipe(gulp.dest(`./${day}/.tmp/css`))
     .pipe(rename(mincss))
@@ -71,7 +71,7 @@ gulp.task('sass', () => gulp.src(`${srcPath}scss/main.scss`)
     .pipe(notify({ message: 'Styles  task complete' })));
 
 
-gulp.task('scripts',() => gulp.src([`${srcPath}libs/jquery.js`,`${srcPath}libs/foundation.js`,`${srcPath}libs/what-input.js`,`${srcPath}js/*.js`])
+gulp.task('scripts',() => gulp.src([`${srcPath}libs/jquery-1.11.3.min.js`,`${srcPath}libs/jquery.glide.min.js`,`${srcPath}js/*.js`])
     .pipe(concat('main.js'))
     .pipe(gulp.dest(`./${day}/.tmp/js`))
     .pipe(rename(minjs))
