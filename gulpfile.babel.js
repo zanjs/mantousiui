@@ -52,7 +52,6 @@ gulp.task('ejs', () => gulp.src(`./${day}/src/templates/*.ejs`)
     .pipe(gulp.dest(`./${day}/.tmp`))
     .pipe(rename({extname: ".html"}))
     .pipe(gulp.dest(`./${day}/`))
-    .pipe(reload({ stream: true }))
     .pipe(notify({ message: 'ejs task complete' })))
 
 
@@ -71,7 +70,7 @@ gulp.task('sass', () => gulp.src(`${srcPath}scss/main.scss`)
     .pipe(notify({ message: 'Styles  task complete' })));
 
 
-gulp.task('scripts',() => gulp.src([`${srcPath}libs/jquery-1.11.3.min.js`,`${srcPath}libs/jquery.glide.min.js`,`${srcPath}js/*.js`])
+gulp.task('scripts',() => gulp.src([`${srcPath}libs/jquery-1.11.3.min.js`,`${srcPath}libs/jquery.touchSwipe.min.js`,`${srcPath}libs/imagesloaded.min.js`,`${srcPath}libs/sangarSlider/*.js`,`${srcPath}libs/sangarSlider.js`,`${srcPath}js/*.js`])
     .pipe(concat('main.js'))
     .pipe(gulp.dest(`./${day}/.tmp/js`))
     .pipe(rename(minjs))
