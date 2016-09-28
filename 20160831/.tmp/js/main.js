@@ -2854,7 +2854,7 @@ var sangarTextbox;
         showAllSlide : false, // show all previous and next slides
         timer :  false, // true or false to have the timer
         advanceSpeed : 6000, // if timer is enabled, time between transitions
-        pauseOnHover : true, // if you hover pauses the slider
+        pauseOnHover : false, // if you hover pauses the slider
         startClockOnMouseOut : true, // if clock should start on MouseOut
         startClockOnMouseOutAfter : 800, // how long after MouseOut should the timer start again
         directionalNav : 'autohide', // autohide, show, none

@@ -122,6 +122,23 @@ background:url(img/.png) no-repeat;
   text-transform: capitalize;
   vertical-align: middle; }
 
+.clear {
+  clear: both;
+  overflow: hidden; }
+
+.index-page--article {
+  float: left;
+  width: 205px;
+  margin-bottom: 10px; }
+  .index-page--article .tout__link {
+    padding-right: 0px; }
+  .index-page--article figure {
+    margin-bottom: 10px; }
+  .index-page--article img {
+    max-width: 100%; }
+  .index-page--article .tout__title {
+    font-size: .8em; }
+
 /**
  * Sangar Slider
  * Copyright 2014, Tonjoo
@@ -130,7 +147,9 @@ background:url(img/.png) no-repeat;
  */
 .sangar-slideshow-container {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  overflow: hidden;
+  position: relative; }
 
 .sangar-slideshow-container .sangar-slideshow-content {
   background-repeat: no-repeat;

@@ -2276,6 +2276,7 @@ footer .list-group__item {
     .tout-list--grid-x6 .tout-list--grid__container .tout {
         width: calc(100% / 3)
     }
+    
 }
 
 @media only screen and (min-width: 64.0625em) {

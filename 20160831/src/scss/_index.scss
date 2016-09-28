@@ -133,3 +133,26 @@ background:url(img/.png) no-repeat;
 	text-transform: capitalize;
 	vertical-align: middle;
 }
+.clear{
+	clear: both;
+	overflow: hidden;
+}
+
+.index-page--article{
+	float: left;
+	width: 205px;   
+	margin-bottom: 10px;
+	.tout__link{
+		padding-right: 0px; 
+	}
+	figure{
+		margin-bottom: 10px; 
+	}
+	img{
+		max-width: 100%;
+
+	}
+	.tout__title{
+		font-size: .8em;
+	}
+}

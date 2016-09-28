@@ -8,6 +8,8 @@
 .sangar-slideshow-container {
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
+    position: relative;
 }
 
 .sangar-slideshow-container .sangar-slideshow-content {
