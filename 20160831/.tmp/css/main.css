@@ -269,12 +269,6 @@ background:url(img/.png) no-repeat;
 .sangar-slideshow-container .sangar-textbox-content > div {
   margin-top: 15px; }
 
-.sangar-slideshow-container .sangar-textbox-content > div p {
-  font-size: inherit; }
-
-.sangar-slideshow-container .sangar-textbox-content p.sangar-slide-title {
-  font-weight: bold; }
-
 .sangar-slideshow-container .sangar-textbox-content {
   box-sizing: border-box; }
 
@@ -350,7 +344,7 @@ background:url(img/.png) no-repeat;
   left: 0;
   right: 0;
   top: 0;
-  padding: 45px;
+  padding: 20px;
   width: 100% !important;
   border-radius: 0px; }
 
@@ -360,7 +354,7 @@ background:url(img/.png) no-repeat;
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 45px;
+  padding: 20px;
   width: 100% !important;
   border-radius: 0px; }
 
@@ -642,3 +636,14 @@ background:url(img/.png) no-repeat;
 
 .sangar-slideshow-container > .default ul.sangar-pagination-type-image > li:hover {
   background: none; }
+
+.sangar-textbox-content p {
+  font-size: 1em; }
+
+@media only screen and (min-width: 64.0625em) {
+  .sangar-textbox-content p {
+    font-size: 3.25em; } }
+
+@media only screen and (min-width: 40.0625em) {
+  .sangar-textbox-content p {
+    font-size: 2.28em; } }

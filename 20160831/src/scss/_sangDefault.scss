@@ -101,3 +101,25 @@
 .sangar-slideshow-container > .default ul.sangar-pagination-type-image > li:hover {
     background: none;
 }
+
+
+.sangar-textbox-content p {
+       
+    font-size: 1em;
+}
+
+@media only screen and (min-width: 64.0625em) {
+    .sangar-textbox-content p {
+       
+        font-size: 3.25em;
+    }
+}
+
+@media only screen and (min-width: 40.0625em) {
+    .sangar-textbox-content p {
+       
+        font-size: 2.28em;
+    }
+    
+}
+
