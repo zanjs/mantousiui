@@ -420,7 +420,9 @@ background:url(img/.png) no-repeat;
   text-align: center;
   line-height: 0;
   background-color: #000000;
-  text-align: center; }
+  text-align: center;
+  opacity: 0;
+  display: none; }
 
 .sangar-slideshow-container .sangar-pagination-wrapper.wrapper-content-vertical {
   position: absolute;
