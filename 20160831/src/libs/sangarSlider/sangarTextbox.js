@@ -30,8 +30,8 @@ var sangarTextbox;
                         .attr('class','sangar-textbox-content')
                         .removeAttr('style')
                         .css({
-                            'box-sizing': 'border-box',
-                            'background': opt.background
+                            'box-sizing': 'border-box'
+                            
                         });
 
                     textboxContent[index] = textbox.html();

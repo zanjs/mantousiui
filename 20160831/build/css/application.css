@@ -539,7 +539,7 @@ h3 {
 }
 
 .sub-title {
-    border-top: 3px solid #141414;
+    /*border-top: 3px solid #141414;*/
     padding-top: .2em;
     border-bottom: 1px solid #D5E0E8;
     padding-bottom: 10px;
@@ -4341,7 +4341,7 @@ footer .list-group__item {
 }
 
 .events-header {
-    border-top: 3px solid #141414;
+    /*border-top: 3px solid #141414;*/
     padding-top: .2em;
     border-bottom: 1px solid #D5E0E8;
     padding-bottom: 10px;
@@ -5664,7 +5664,7 @@ a.pagination__direction:hover {
     padding-left: 21px;
     padding-right: 21px;
     float: left;
-    margin-top: 2em;
+    /*margin-top: 1em;*/
     margin-bottom: 2em
 }
 
@@ -5676,7 +5676,7 @@ a.pagination__direction:hover {
 
 @media only screen and (min-width: 40.0625em) {
     .global-challenge-about {
-        width: 70%;
+        /*width: 70%;*/
         margin-bottom: 3em
     }
     .collection-page .global-challenge-about {
